@@ -1,9 +1,18 @@
 import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.sql.SQLException;
 
 public class design {
-    private JTextArea story;
-    private JButton link1Button;
-    private JButton startButton;
-    private JButton link2Button;
     public JPanel soloview;
+    public JTextArea story;
+    public JButton back;
+    public JButton start;
+    public JButton next;
+    public Label Story;
+
+    public design() {
+
+    }
 }
