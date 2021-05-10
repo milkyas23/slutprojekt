@@ -8,17 +8,15 @@ public class soloäventyrController {
     model model;
     design view;
 
-    public soloäventyrController(AbstractButton editButton, AbstractButton Database, AbstractButton startButton) {
+    public soloäventyrController( ) {
         JFrame frame = new JFrame("Design");
         view = new design();
         model = new model();
         frame.add(view.soloview);
-        startButton.addActionListener(new ActionListener() {
+        view.start.addActionListener(new ActionListener() {
             @Override
-            public void actionPerformed(ActionEvent e) {
-                view.start.addActionListener(new ActionListener() {
-                    @Override
-                    public void actionPerformed(ActionEvent actionEvent) {
+            public void actionPerformed(ActionEvent actionEvent) {
+
                         try {
                             ArrayList<links> links = model.getLinks(model.currentRoom);
 
@@ -43,9 +41,11 @@ public class soloäventyrController {
                         }
                     }
                 });
-                //System.out.println("hej");
             }
-        });
+
+    public static void main(String[] args){
+        soloäventyrController game = new soloäventyrController();
+
     }
 
 }
