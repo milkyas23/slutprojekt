@@ -15,7 +15,7 @@ public class model {
         String password = "password";
         try {
             Connection conn = DriverManager.getConnection(
-                    "jdbc:mysql://localhost:3306/te18? " +
+                    "jdbc:mysql://localhost:3306/Te18? " +
                             "allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC",
                     "username", password);
 
