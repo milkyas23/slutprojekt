@@ -4,8 +4,8 @@ import java.util.Queue;
 import java.util.Scanner;
 
 public class model {
-    private static Queue<Integer> storyLinks;
-    int currentRoom = 1;
+    private static Queue<Integer> StoryLinks;
+    int currentRoom = 2;
     private Statement stmt;
 
     /**
@@ -36,7 +36,7 @@ public class model {
         try {
             Scanner tgb = new Scanner(System.in);
 
-            String strSelect = "select body from story where id = " + i;
+            String strSelect = "select body from Story where id = " + i;
             ResultSet rset = stmt.executeQuery(strSelect);
             while (rset.next()) {
                 String body = rset.getString("body");
@@ -56,20 +56,20 @@ public class model {
      */
     public ArrayList<links> getLinks(int i) throws SQLException {
         try {
-            String strSelect = "select description, target_id from links where story_id = " + i;
+            String strSelect = "select description, target_id from links where Story_id = " + i;
 
             ResultSet rset = stmt.executeQuery(strSelect);
-            ArrayList<links> storyLinks = new ArrayList<>();
+            ArrayList<links> StoryLinks = new ArrayList<>();
 
             int rowCount = 0;
             while (rset.next()) {
                 String description = rset.getString("description");
                 int targetId = rset.getInt("target_id");
                 links l = new links(i,targetId,description);
-                storyLinks.add(l);
+                StoryLinks.add(l);
                 System.out.println(++rowCount + " " + description);
             }
-            return storyLinks;
+            return StoryLinks;
 
         } catch (SQLException e) {
             e.printStackTrace();
