@@ -13,9 +13,8 @@ Syftet med slutprojektet är att bygga ett fungerandee soloäventyr spel och en 
 
 ## Bakgrund
 
-Redovisa arbetets olika delar. Så att läsaren förstår vad du gjort och hur.
-
-Använd gärna bilder för att illustrera.
+Projektet startades genom att skapa en database där det innehålls en story och links i tableplus, sedan utforminig av spelet designades med en GUI form.
+Därefter så skapades en model javafil där den innehåller in koppling till databasen, en metod som hämtar första storyn på database och sparas i en arraylist. Modelen kopplas  med spelcontroller(soloäventyrcontroller) där spelet körs och innehåller acctionlistner för olika knappar. Sedan skapades en arraylist för links för att komma åt databasen "links".
 
 För att lägga till bilder i markdown. Bilderna kan du ladda upp med Git som vanligt, länka dem med url eller filnamnet.
 
@@ -29,6 +28,7 @@ Format: ![Alt Text](url)
 ## Positiva erfarenheter
 
 Här beskriver du vad som har gått bra i ditt projekt och analyserar varför. Hur ska du upprepa framgångarna.
+De positiva erfaranheten är att jag lyckades skapa ett nytt database och ett fungerande spel och att jag lärde mig >>>
 
 ## Negativa erfarenheter
 
