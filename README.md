@@ -1,5 +1,5 @@
 # Slutprojekt 
-# soloäventyrController med database edditor
+# soloäventyr och database edditor
 För mitt slutprojekt så ska jag bygga om projektet soloäventyrController och soloäventyrController database edditor. Projektet lägger fukus på att bygga klart ett fungerande soloäventyrController spel och ett funktionellt database edditor där man kan komma åt soloäventyrs databasen och redigera de. 
 
 
@@ -21,11 +21,12 @@ Därefter så skapades en model javafil där den innehåller in koppling till da
 ## Positiva erfarenheter
 
 Här beskriver du vad som har gått bra i ditt projekt och analyserar varför. Hur ska du upprepa framgångarna.
-De positiva erfaranheten är att jag lyckades skapa ett nytt database och ett fungerande spel och att jag lärde mig >>>
+De positiva erfaranheten är att jag lyckades skapa ett nytt database och ett fungerande spel och att jag lärde mig hur 
 
 ## Negativa erfarenheter
 
 Här beskriver du det som du anser har gått mindre bra med ditt projekt och analyserar hur du kan undvika detta i framtida projekt.
+De negativa erfarenheter är att jag inte lyckades skapa en fungerande database editor på grunde av okända problem stotning som jag inte kunde lösa.
 
 ## Sammanfattning
 
