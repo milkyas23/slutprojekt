@@ -8,12 +8,10 @@ public class design {
     public JPanel soloview;
     public JTextArea story;
     public JButton backButton;
-    public JButton startButton;
+    public JButton startFörsättButton;
     public JButton nextButton;
     public JButton back;
-    //public JButton start;
-    //public JButton next;
-    //public Label Story;
+
 
     public design() {
 

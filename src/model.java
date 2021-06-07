@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class model {
     private static Queue<Integer> StoryLinks;
-    int currentRoom = 2;
+    int currentRoom = 1;
     private Statement stmt;
 
     /**
