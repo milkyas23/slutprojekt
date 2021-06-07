@@ -24,7 +24,7 @@ De positiva erfaranheten är att jag lyckades skapa ett nytt database och ett fu
 
 ## Negativa erfarenheter
 
-De negativa erfarenheter är att jag inte lyckades skapa en fungerande database editor på grunde av okända problem stotning som jag inte kunde lösa.
+De negativa erfarenheter är att jag inte lyckades skapa en fungerande database editor på grunde av okända problem stotning som jag inte kunde lösa. Detta kan undvikas/lösa med mer tid och undersökning vilket det leder till utväckling av kunskap.
 
 ## Sammanfattning
 
