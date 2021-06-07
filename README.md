@@ -20,15 +20,12 @@ Därefter så skapades en model javafil där den innehåller in koppling till da
 
 ## Positiva erfarenheter
 
-Här beskriver du vad som har gått bra i ditt projekt och analyserar varför. Hur ska du upprepa framgångarna.
-De positiva erfaranheten är att jag lyckades skapa ett nytt database och ett fungerande spel och att jag lärde mig hur 
+De positiva erfaranheten är att jag lyckades skapa ett nytt database och ett fungerande spel och att jag lärde mig hur man bygger en fungerande knapp genom acctionlistner funktion.
 
 ## Negativa erfarenheter
 
-Här beskriver du det som du anser har gått mindre bra med ditt projekt och analyserar hur du kan undvika detta i framtida projekt.
 De negativa erfarenheter är att jag inte lyckades skapa en fungerande database editor på grunde av okända problem stotning som jag inte kunde lösa.
 
 ## Sammanfattning
 
-Här redovisar du dina slutsatser, erfarenheter och lärdomar. Reflektera över din produkt och dess/dina utvecklingsmöjligheter.
-Vad kan vidareutvecklas och finns det utrymme att bygga vidare på projektet.
+Avslutningvis så var slutprojektet någonlunda succe för den bra fungerande soloäventyr spel men allt på planering nådes inte (såsom bygga klart database editor och menu scener för spelet), vilket det ger slutprojektet utvecklingsmöjligheter.
