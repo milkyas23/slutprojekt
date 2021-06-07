@@ -16,13 +16,6 @@ Syftet med slutprojektet är att bygga ett fungerandee soloäventyr spel och en 
 Projektet startades genom att skapa en database där det innehålls en story och links i tableplus, sedan utforminig av spelet designades med en GUI form.
 Därefter så skapades en model javafil där den innehåller in koppling till databasen, en metod som hämtar första storyn på database och sparas i en arraylist. Modelen kopplas  med spelcontroller(soloäventyrcontroller) där spelet körs och innehåller acctionlistner för olika knappar. Sedan skapades en arraylist för links för att komma åt databasen "links".
 
-För att lägga till bilder i markdown. Bilderna kan du ladda upp med Git som vanligt, länka dem med url eller filnamnet.
-
-```
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
-```
-
 ![NTI Gymnasiet Umeå Logo](https://raw.githubusercontent.com/jensnti/Webbprojekt/master/mallar/nti_logo_white_umea.svg)
 
 ## Positiva erfarenheter
